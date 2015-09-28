@@ -14,8 +14,7 @@
  */
 
 /* Includes ------------------------------------------------------------------*/
-#include "application.h"
-#include "freertos4core.h"
+#include "freertos4core/freertos4core.h"
 
 TimerHandle_t timer;
 

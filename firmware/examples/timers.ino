@@ -1,3 +1,5 @@
+#pragma SPARK_NO_PREPROCESSOR
+#include "application.h"
 /*
  * This example shows how to create a repeating timer using FreeRTOS
  * xTimerCreate() and xTimerStart() functions.

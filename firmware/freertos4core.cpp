@@ -41,7 +41,7 @@ void rtos_start(TaskHandle_t handle)
 }
 
 static TaskHandle_t  app_thread_handle;
-#define APPLICATION_STACK_SIZE 1024*2
+#define APPLICATION_STACK_SIZE 1024*3
 
 
 extern "C" void HAL_Hook_Main()
